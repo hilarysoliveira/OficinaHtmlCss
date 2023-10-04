@@ -1,52 +1,54 @@
-*{
-    font-family: Press+Start+2P;
+* {
+  font-family: Press + Start + 2P;
 }
 
-
-.header{
-    height: 100px;
-    background-color: rgb(243, 230, 255);
-    padding: 16px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-    
+.header {
+  height: 100px;
+  background-color: rgb(243, 230, 255);
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
 }
 
-.headerTitulo{
-    color: rgb(39, 9, 68);
-
+.headerTitulo {
+  color: rgb(39, 9, 68);
 }
 
-.headerNomeImage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.headerNomeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    height: 100%;
+  height: 100%;
 }
 
-.image{
-    max-height: 100%;
-    width: 100%;
+.image {
+  max-height: 100%;
+  width: 100%;
 
-    border-radius: 8px;;
+  border-radius: 8px;
 }
 
-button{
-height: 10%;
-width: 10%;
-max-width: 150px;
+button {
+  height: 100%;
+  width: 100%;
+  max-width: 150px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
-    a{
-        height: 100%;
-    }
+a {
+  height: 100%;
+}
 
-.lucidelucide-link{
-    width: 12px;
-    height: 12px;
+.lucidelucide-link {
+  width: 12px;
+  height: 12px;
 }
